@@ -1,6 +1,6 @@
 export function formatMovieObject(json) {
-    return ({
+    return {
         title: json.Title,
         plot: json.Plot
-    })
+    }
 }
